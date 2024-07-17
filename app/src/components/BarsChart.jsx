@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
 import { Bar } from 'react-chartjs-2';
+import { useContext } from 'react';
 import ExpenseContext from '../context/ExpenseContext';
 import {
   Chart as ChartJS,
@@ -108,8 +108,7 @@ const BarsChart = () => {
       // Discontinuous line at x-axis
       ctx.moveTo(chart.chartArea.left, xPixel);
       ctx.lineTo(chart.chartArea.right, xPixel);
-      ctx.stroke();
-      
+      ctx.stroke();      
       ctx.restore();
     }
   };

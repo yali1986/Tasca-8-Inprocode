@@ -1,6 +1,3 @@
-import './App.css'
-import Card from './components/Card.jsx'
-
 
 // Servir el balance de gastos
 
@@ -10,20 +7,20 @@ import Card from './components/Card.jsx'
 
 // - Los datos de la gráfica.
 
+import './App.css';
+import Card from './components/Card.jsx';
+import ExpenseProvider from './context/ExpenseProvider';
+
 function App() {
   return (
-    <>
-    <div className='container-fluid bg-color full-height'>
-
-   <div className='d-flex justify-content-center full-height'>
-   <Card />
-   </div>
-
-   </div>
-     
-
-    </>
-  )
+    <ExpenseProvider>
+      <div className="container-fluid bg-color full-height">
+        <div className="d-flex align-items-center justify-content-center full-height">
+          <Card />
+        </div>
+      </div>
+    </ExpenseProvider>
+  );
 }
 
-export default App
+export default App;

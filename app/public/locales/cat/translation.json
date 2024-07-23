@@ -1,0 +1,12 @@
+
+{
+    "main" : {
+        "balance" : "Balanç total",
+        "bills" : "Despeses - Última setmana",
+        "today": "Despesa d'avui",
+        "yesterday": "respecte a ahir"      
+        }       
+}
+
+    
+

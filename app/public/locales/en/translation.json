@@ -1,0 +1,8 @@
+{
+    "main" : {
+        "balance": "Total balance", 
+        "bills" : "Expenses -Last week",
+        "today": "Today's expenses",
+        "yesterday": "compared to yesterday"
+    }
+}

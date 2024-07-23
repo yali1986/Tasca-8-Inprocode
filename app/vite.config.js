@@ -3,4 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  optimizeDeps: {
+    include: ['react-i18next', 'i18next', 'i18next-browser-languagedetector', 'i18next-http-backend'],
+  },
 });

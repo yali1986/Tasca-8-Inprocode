@@ -1,7 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
 .bg-color {
     background-color: #F8EADD;
+    min-height: 100vh
 }
 
 .full-height {
-    height: 100vh;    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .disabled {
+    pointer-events: none;
+    opacity: 0.5;
   }

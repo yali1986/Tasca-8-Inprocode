@@ -2,7 +2,7 @@ import './App.css'
 import Card from './components/Card.jsx'
 import ExpenseProvider from './context/ExpenseProvider'
 import TotalExpenses from './components/TotalExpenses.jsx'
-import { Suspense, useState } from 'react'
+import { Suspense } from 'react'
 import Languages from './components/Languages.jsx'
 
 

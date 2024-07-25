@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+    "build": "vite build"
+    },
   "dependencies": {
+    "@vitest/ui": "^2.0.4",
     "chart.js": "^4.4.3",
     "i18next": "^23.12.1",
     "i18next-browser-languagedetector": "^8.0.0",
